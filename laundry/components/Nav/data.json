@@ -1,0 +1,35 @@
+{
+  "logo": "/laundry/assets/svg/nav-logo.svg",
+  "logoAlt": "",
+  "nav": [
+    {
+      "label": "overview",
+      "href": "#"
+    },
+    {
+      "label": "cooktops",
+      "href": "#"
+    },
+    {
+      "label": "dishwashers",
+      "href": "#"
+    },
+    {
+      "label": "ranges",
+      "href": "#",
+      "highlight": true
+    },
+    {
+      "label": "refrigerators",
+      "href": "#"
+    },
+    {
+      "label": "wall ovens",
+      "href": "#"
+    },
+    {
+      "label": "laundry",
+      "href": "#"
+    }
+  ]
+}

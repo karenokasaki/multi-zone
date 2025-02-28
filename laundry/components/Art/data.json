@@ -1,0 +1,23 @@
+{
+  "header": "The art and science of LG Laundry",
+  "cards": [
+    {
+      "src": "/laundry/assets/videos/art-1.mp4",
+      "title": "Smart cleaning for tailored care",
+      "copy": "Forget about endless sorting or toggling through cycles. Built-in sensors use AI technology to detect fabric texture and load size, then automatically select the right wash motions, temperatures and more for the right care for your clothes.",
+      "alt": "Video explaining the LG TurboWash 360 feature, which uses up to six different wash motions to help clean your clothes."
+    },
+    {
+      "src": "/laundry/assets/videos/art-2.mp4",
+      "title": "Power meets care with TurboWash™",
+      "copy": "LG’s exclusive TurboWash™ delivers a complete clean to help you get more done in less time. Based on the cycle you select, our 6Motion™ technology uses up to 6 different wash motions, each designed to get clothes cleaner and help them last longer.",
+      "alt": "Video explaining how AI technology is used in LG's laundry appliances."
+    },
+    {
+      "src": "/laundry/assets/videos/art-3.mp4",
+      "title": "A superior wash, with a twist",
+      "copy": "Deciding between an agitator or impeller? LG is on top of it. Our top-load impeller washer features a high efficiency design that carefully rubs clothes together to break down stains. And LG’s top-load agitator performs a 4-way wash action that move clothes left and right, up and down. Either way, your clothes are sure to get a thorough yet gentle clean.",
+      "alt": "Animation showing LG's top-load agitator performing a 4-way wash action that moves clothes left and right, up and down."
+    }
+  ]
+}

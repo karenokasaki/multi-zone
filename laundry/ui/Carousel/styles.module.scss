@@ -1,0 +1,52 @@
+.carousel {
+  &.hide-carousel-ui {
+    :global(.slick-arrow) {
+      display: none !important;
+      visibility: hidden !important;
+    }
+  }
+  :global(.slick-arrow) {
+    &:global(.slick-next) {
+      outline: none !important;
+
+      &::before {
+        background: url('data:image/svg+xml,<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.607098 1.82908L2.14501 0.299805L10.6899 8.85337L2.13637 17.4069L0.607098 15.8777L7.63139 8.85337L0.607098 1.82908Z" fill="%23E9473A"/></svg>') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+      }
+      &:global(.slick-disabled)::before {
+        background: url('data:image/svg+xml,<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.607098 1.82908L2.14501 0.299805L10.6899 8.85337L2.13637 17.4069L0.607098 15.8777L7.63139 8.85337L0.607098 1.82908Z" fill="%2314120E"/></svg>') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        filter: invert(0.8);
+      }
+    }
+    &:global(.slick-prev) {
+      outline: none !important;
+
+      &::before {
+        background: url('data:image/svg+xml,<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.3929 1.82908L8.85499 0.299805L0.310059 8.85337L8.86363 17.4069L10.3929 15.8777L3.36861 8.85337L10.3929 1.82908Z" fill="%23E9473A"/></svg>') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+      }
+      &:global(.slick-disabled)::before {
+        background: url('data:image/svg+xml,<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.3929 1.82908L8.85499 0.299805L0.310059 8.85337L8.86363 17.4069L10.3929 15.8777L3.36861 8.85337L10.3929 1.82908Z" fill="%2314120E"/></svg>') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        filter: invert(0.8);
+      }
+    }
+  }
+  :global(.slick-dots) {
+    li button::before {
+      border: none;
+      background-color: #959493;
+    }
+    li:global(.slick-active) {
+      button::before {
+        background-color: #e9473a;
+        opacity: 1;
+      }
+    }
+  }
+}

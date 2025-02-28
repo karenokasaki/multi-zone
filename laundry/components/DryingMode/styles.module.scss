@@ -1,0 +1,158 @@
+@use "../../styles/LG/variables" as lg;
+@use "../../styles/SJ/variables" as sj;
+@use "../../styles/SJ/mixin" as mixin;
+
+.wrapper * {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  @include mixin.copyMobile();
+  padding: 64px 24px 110px;
+}
+
+.content {
+  max-width: 1363px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1b1a1ede;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+  margin-bottom: 32px;
+  h3 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  &-disclaimer {
+    margin: 0 auto;
+    max-width: 85%;
+    margin-top: 8px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: center;
+  }
+  &-cta {
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+  &_1 {
+    .section-asset {
+      overflow: hidden;
+      border-radius: 32px;
+    }
+  }
+  &-copy {
+    p {
+      line-height: 19.32px;
+    }
+  }
+}
+
+.section-cta {
+  width: 268px;
+
+  a {
+    text-transform: capitalize !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 19.2px !important;
+    text-align: center !important;
+    padding: 10.5px 32px !important;
+    height: 40px !important;
+    max-height: 56px !important;
+    border-radius: 32px !important;
+  }
+}
+
+/** tablet */
+@media screen and (min-width: (lg.$min-sm + px)) {
+  .wrapper {
+    @include mixin.copyTablet();
+    padding: 45px 64px 77px;
+  }
+  .section {
+    margin-bottom: 72px;
+    &_1 .section-asset {
+      border-radius: 64px;
+    }
+
+    &-cta {
+      width: 120px;
+
+      a {
+        font-family: "LG EI" !important;
+        padding: 10.5px 16px !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        line-height: 19.2px !important;
+        height: 40px !important;
+        text-align: center !important;
+      }
+    }
+  }
+}
+
+/** desktop */
+@media screen and (min-width: (lg.$min-xl + px)) {
+  .wrapper {
+    @include mixin.copyDesktop();
+    padding-bottom: 0px;
+    padding-top: 100px;
+  }
+  .section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    h3 {
+      text-align: left;
+      font-size: 36px;
+      line-height: 40.32px;
+    }
+    &_0 {
+      flex-direction: row-reverse;
+      gap: 142px;
+      .section-graphic {
+        flex-grow: 0.85;
+      }
+    }
+    &_1 {
+      gap: 85px;
+      .section-graphic {
+        flex-grow: 1.17;
+      }
+    }
+    &-copy {
+      flex-grow: 1;
+      max-width: 600px;
+    }
+    &-cta {
+      position: unset;
+      transform: unset;
+      margin-top: 24px;
+      width: 143px !important;
+
+      a {
+        padding: 10.5px 27.5px !important;
+        font-family: "LG EI" !important;
+      }
+    }
+  }
+}

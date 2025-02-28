@@ -1,0 +1,189 @@
+{
+  "title": "Shop our top-rated laundry solutions",
+  "products": [
+    {
+      "sku": "WT8405CW",
+      "name": "5.3 cu. ft. Mega Capacity Smart Top Load Washer with 4-Way® Agitator, EasyUnload™ & AI Sensing",
+      "image": "/laundry/assets/images/product-1.png",
+      "desc": [
+        "5.3 cu.ft. Mega Capacity lets you fit more in every load",
+        "EasyUnload™ design offers a more comfortable, ergonomic reach without sacrificing capacity",
+        "Built-in intelligence takes out the guesswork—AI technology selects optimal wash settings"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-wt8405cw-top-load-washer",
+        "label": "Shop Now",
+        "placementPosition": 1,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "5.3 cu. ft. Mega Capacity Smart Top Load Washer with 4-Way® Agitator, EasyUnload™ & AI Sensing",
+        "productId": "WT8405CW",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+    {
+      "sku": "DLE8400WE",
+      "name": "7.3 cu. ft. Ultra Large Capacity Rear Control Electric Dryer with LG EasyLoad™ Door and AI Sensing",
+      "image": "/laundry/assets/images/product-2.png",
+      "desc": [
+        "7.3 cu.ft. Ultra Large Capacity lets you clean larger loads",
+        "Load and unload with the convenient dual-opening options of the LG EasyLoad™ dryer door",
+        "Built-in intelligence takes out the guesswork—AI technology selects optimal dry settings"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-dle8400we-electric-dryer",
+        "label": "Shop Now",
+        "placementPosition": 2,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "7.3 cu. ft. Ultra Large Capacity Rear Control Electric Dryer with LG EasyLoad™ Door and AI Sensing",
+        "productId": "DLE8400WE",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+    {
+      "sku": "WM4000HBA",
+      "name": "4.5 cu. ft. Ultra Large Capacity Smart wi-fi Enabled Front Load Washer with TurboWash™ 360° and Built-In Intelligence",
+      "image": "/laundry/assets/images/product-3.png",
+      "desc": [
+        "4.5 cu. ft. Ultra Large Capacity lets you clean larger loads",
+        "With TurboWash® 360° Technology, power clean big loads in under 30 minutes¹",
+        "Built-in intelligence takes out the guesswork—AI technology selects optimal wash settings"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-wm4000hba-front-load-washer",
+        "label": "Shop Now",
+        "placementPosition": 3,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "4.5 cu. ft. Ultra Large Capacity Smart wi-fi Enabled Front Load Washer with TurboWash™ 360° and Built-In Intelligence",
+        "productId": "WM4000HBA",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+    {
+      "sku": "DLEX4000B",
+      "name": "7.4 cu. ft. Ultra Large Capacity Smart wi-fi Enabled Front Load Electric Dryer with TurboSteam™ and Built-In Intelligence",
+      "image": "/laundry/assets/images/product-4.png",
+      "desc": [
+        "7.4 cu.ft. Ultra Large Capacity lets you clean larger loads",
+        "Refresh clothes in between washes with TurboSteam™",
+        "Built-in intelligence takes out the guesswork—AI technology selects optimal dry settings"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-dlex4000b-front-load-electric-dryer",
+        "label": "Shop Now",
+        "placementPosition": 4,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "7.4 cu. ft. Ultra Large Capacity Smart wi-fi Enabled Front Load Electric Dryer with TurboSteam™ and Built-In Intelligence",
+        "productId": "DLEX4000B",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+    {
+      "sku": "WM5500HVA",
+      "name": "4.5 cu. ft. Capacity Smart Front Load Energy Star Washer with TurboWash® 360° and AI DD® Built-In Intelligence",
+      "image": "/laundry/assets/images/product-6.png",
+      "desc": [
+        "4.5 cu. ft. Ultra Large Capacity lets you clean larger loads",
+        "LCD Digital Dial Control with LED Display gives you helpful information with each turn of the dial",
+        "With TurboWash® 360° Technology, power clean big loads in under 30 minutes²"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-wm5500hva-front-load-washer",
+        "label": "Shop Now",
+        "placementPosition": 5,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "4.5 cu. ft. Capacity Smart Front Load Energy Star Washer with TurboWash® 360° and AI DD® Built-In Intelligence",
+        "productId": "WM5500HVA",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+    {
+      "sku": "WKEX200HGA",
+      "name": "Single Unit Front Load LG WashTower™ with Center Control™ 4.5 cu. ft. Washer and 7.4 cu. ft. Electric Dryer",
+      "image": "/laundry/assets/images/product-5.png",
+      "desc": [
+        "Ultra Large Capacity 4.5 cu.ft. Washer and 7.4 cu.ft. Dryer let you clean larger loads",
+        "Single Unit Vertical Design takes up half the floor space",
+        "Our Sleekest Center Control® Yet –LED display makes it easier to reach the controls"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-wkex200hga-washtower",
+        "label": "Shop Now",
+        "placementPosition": 6,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "Single Unit Front Load LG WashTower™ with Center Control™ 4.5 cu. ft. Washer and 7.4 cu. ft. Electric Dryer",
+        "productId": "WKEX200HGA",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+
+    {
+      "sku": "WM6998HBA",
+      "name": "Ventless Washer/Dryer Combo LG WashCombo™ All-in-One 5.0 cu. ft. Mega Capacity with Inverter HeatPump™ Technology and Direct Drive Motor",
+      "image": "/laundry/assets/images/product-7.png",
+      "desc": [
+        "Wash & Dry as fast as 2 hours³",
+        "Go-Anywhere Sleek Ventless Design",
+        "Greatest Energy Savings up to 60%⁴ with Inverter HeatPump™ Technology"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-wm6998hba",
+        "label": "Shop Now",
+        "placementPosition": 7,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "Ventless Washer/Dryer Combo LG WashCombo™ All-in-One 5.0 cu. ft. Mega Capacity with Inverter HeatPump™ Technology and Direct Drive Motor",
+        "productId": "WM6998HBA",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    },
+    {
+      "sku": "S3MFBN",
+      "name": "LG Styler® Smart wi-fi Enabled Steam Closet with TrueSteam® Technology and Exclusive Moving Hangers",
+      "image": "/laundry/assets/images/product-8.png",
+      "desc": [
+        "Sanitize, refresh, and deodorize hard-to-wash items with chemical-free TrueSteam® Technology",
+        "Shake off dust, odors and allergens with LG’s exclusive 3 Moving Hangers",
+        "Keep your pants looking wrinkle-free and restore creases with the Door-Mounted Pants Press"
+      ],
+      "tagging": {
+        "href": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
+        "label": "Shop Now",
+        "placementPosition": 7,
+        "assetPosition": "top",
+        "assetType": "image",
+        "selectionText": "Shop Now",
+        "productname": "LG Styler® Smart wi-fi Enabled Steam Closet with TrueSteam® Technology and Exclusive Moving Hangers",
+        "productId": "S3MFBN",
+        "type": "content_card",
+        "contentDescription": "Bottom_content_card_best_sellers"
+      }
+    }
+  ],
+  "disclaimers": [
+    "Images may be simulated and dramatized for illustrative purposes. Actual features, functionality, and other product specifications may differ and are subject to change without notice. Prices, promotions, and availability may vary by model, store, and online. Prices subject to change without notice. Quantities are limited. Check with your local retailers for their final price and availability.",
+    "¹Based on independent testing in normal cycle with TurboWash™ option, 10 lb. load (June 2020).",
+    "²Based on independent testing on comparable models WM4500 and WM3900 in normal cycle with TurboWash® Option, 10 lb. load (March 2021).",
+    "³Cycle time may vary depending on load type/weight. Based on independent testing in Wash+Dry cycle with Dryer on Energy Saver mode, 10 lb. DOE standard load (October 2023). Full capacity load approximately 20 lb.",
+    "⁴Up to 60% less energy compared to similarly-sized vented LG dryers. The industry's most energy efficient combo based on http://EnergyStar.gov (November 2023)."
+  ]
+}

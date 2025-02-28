@@ -1,0 +1,34 @@
+{
+  "title": "Drying mode set to effortless",
+  "sections": [
+    {
+      "title": "Advanced features to simplify your day",
+      "copy": "Don't have time to run a wash? You can refresh clothes in between washes with TurboSteam® technology that uses steam to reduce wrinkles and odors in your garments.\n\nForget about endless sorting or toggling through cycles. AI Sensor Dry™ detects moisture levels and automatically adjusts drying time for loads of all sizes—no more damp clothes, no more over-drying.",
+      "assetType": "image",
+      "asset": {
+        "src": "/laundry/assets/images/drying-mode.jpg",
+        "alt": "Top of dryer with hand touching circular controls with 'AI Dry Optimizes cycle based on fabrics' displaying on the screen."
+      }
+    },
+    {
+      "title": "Dry cycles powered by innovation",
+      "copy": "Our electric heat pump dryers bring the future into your home today for greater efficiency, ease of installation and gentler clothing care.\n\nOperating on a closed loop system, the LG Inverter HeatPump™ heats air to remove moisture from your clothes. It then recirculates that air to dry your laundry, using less energy with every load. Heat pump dryers are also ventless so installation could be as easy as plugging it in.\n\nGet to know the advantages of the heat pump technology found inside the LG WashCombo™, select LG WashTowers™ and select LG dryers.",
+      "cta": {
+        "label": "Learn More",
+        "variant": "white",
+        "href": "/us/discover-laundry",
+        "placementPosition": 4,
+        "assetPosition": "left",
+        "assetType": "image",
+        "selectionText": "Learn More",
+        "type": "mediabreaker",
+        "contentDescription": "Dry_cycles_powered_by_innovation"
+      },
+      "assetType": "video",
+      "asset": {
+        "src": "/laundry/assets/videos/drying-mode.mp4",
+        "title": "The LG WashCombo placed in an alcove of a room to show how it can fit into a home."
+      }
+    }
+  ]
+}

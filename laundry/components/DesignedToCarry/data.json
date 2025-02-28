@@ -1,0 +1,99 @@
+{
+  "header": {
+    "title": "Designed to carry the load",
+    "copy": "Whether you’re working with a small closet or a dedicated laundry room, doing laundry for a big family or just yourself, LG can help you find the right lineup for your space and lifestyle."
+  },
+  "cards": [
+    {
+      "img": {
+        "src": "/laundry/assets/images/designed-to-carry-a.jpg",
+        "alt": "A pile of towels sits on top of a front-load washer in a laundry room."
+      },
+      "title": "Washers",
+      "copy": "Whether you favor a stackable front-load washer, or a top-load washer with either an agitator or impeller, we have a complete lineup with the capacity, features and technology to do the job, every time.",
+      "cta": [
+        {
+          "label": "Shop Now",
+          "href": "/us/washers",
+          "placementPosition": 1,
+          "assetPosition": "top",
+          "assetType": "image",
+          "selectionText": "Shop Now",
+          "type": "content_card",
+          "contentDescription": "Designed_to_carry_the_load_Washers"
+        }
+      ]
+    },
+    {
+      "img": {
+        "src": "/laundry/assets/images/designed-to-carry-b.jpg",
+        "alt": "A teenager is taking clothes out of a front-load dryer and putting them into a laundry basket on the floor of a laundry room."
+      },
+      "title": "Dryers",
+      "copy": "LG dryers do more than just stylishly pair with your washer. They add a level of convenience and clothing care to help make doing laundry smoother, smarter and more efficient.",
+      "cta": [
+        {
+          "label": "Shop Now",
+          "href": "/us/dryers",
+          "placementPosition": 2,
+          "assetPosition": "top",
+          "assetType": "image",
+          "selectionText": "Shop Now",
+          "type": "content_card",
+          "contentDescription": "Designed_to_carry_the_load_Dryers"
+        }
+      ]
+    },
+    {
+      "img": {
+        "src": "/laundry/assets/images/designed-to-carry-c.jpg",
+        "alt": "A woman is standing to the right of an all-in-one washer/dryer with a fitted sheet in her hands."
+      },
+      "title": "Space-saving solutions",
+      "copy": "Big job, smaller footprint. LG’s WashTower™ with Center Control® and WashCombo™ save space without compromising on performance and clothing care.",
+      "cta": [
+        {
+          "label": "Shop Now",
+          "href": "/us/washer-dryer-combos",
+          "placementPosition": 3,
+          "assetPosition": "top",
+          "assetType": "image",
+          "selectionText": "Shop Now",
+          "type": "content_card",
+          "contentDescription": "Designed_to_carry_the_load_Space-saving_solutions"
+        }
+      ]
+    },
+    {
+      "img": {
+        "src": "/laundry/assets/images/designed-to-carry-d.jpg",
+        "alt": "LG's Styler Steam Closet sits to the right of an all-in-one washer/dryer and Sidekick pedestal washer in a modern apartment."
+      },
+      "title": "Stylish add-ons",
+      "copy": "For added efficiency and convenience, LG’s Styler® Steam Closet uses steam to freshen your favorites, and the LG SideKick® pedestal washer lets you run two cycles at the same time.",
+      "cta": [
+        {
+          "label": "Shop Styler",
+          "href": "/us/styler-steam-closet",
+          "placementPosition": 4,
+          "assetPosition": "top",
+          "assetType": "image",
+          "selectionText": "Shop Now",
+          "type": "content_card",
+          "contentDescription": "Designed_to_carry_the_load_Next-level_laundry"
+        },
+        {
+          "label": "Shop Pedestals",
+          "href": "https://www.lg.com/us/pedestal-washers",
+          "variant": "white",
+          "placementPosition": 5,
+          "assetPosition": "top",
+          "assetType": "image",
+          "selectionText": "Shop Pedestals",
+          "type": "content_card",
+          "contentDescription": "Designed_to_carry_the_load_Next-level_laundry_shop_pedestals"
+        }
+      ]
+    }
+  ]
+}

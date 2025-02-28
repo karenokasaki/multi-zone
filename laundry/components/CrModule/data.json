@@ -1,0 +1,19 @@
+{
+  "title": "The clear choice for reliability",
+  "texts": [
+    "LG’s washers and dryers are built to last and give you worry-free operation, load after load. Our Direct Drive motor comes with a 10-year limited warranty, and many of our models are ENERGY STAR certified.",
+    "In fact, Consumer Reports has recommended several of our washers and dryers for their reliability as well as energy efficiency.*",
+    "With LG, America’s most reliable line of home appliances, you know your clothes get the care you expect, every time."
+  ],
+  "image": {
+    "src": "/laundry/assets/images/cr-module.png",
+    "alt": "#"
+  },
+  "logo_src": "/laundry/assets/images/cr-logo.png",
+  "disclaimer": "* Consumer Reports does not endorse products or services.",
+  "cta": {
+    "label": "See Report",
+    "href": "https://www.lg.com/us/reliable-home-appliances/LG_MostReliableAppliances.pdf"
+  },
+  "cr_models": "WM5500HVA, DLGX5501V"
+}

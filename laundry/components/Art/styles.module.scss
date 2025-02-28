@@ -1,0 +1,168 @@
+@use "../../styles/LG/variables" as lg;
+@use "../../styles/SJ/variables" as sj;
+
+/* mobile */
+.wrapper {
+  background: linear-gradient(70.78deg, #030303 28.04%, #132a2b 94.86%);
+  color: white;
+  padding: 64px 32px 90px 32px;
+}
+
+.header {
+  margin-bottom: 71px;
+  color: #f9f7f1;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 550;
+    line-height: 40.32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+
+  :nth-child(2) {
+    .content {
+      h3 {
+        padding: 0 24px;
+      }
+    }
+  }
+
+  :last-child {
+    .content {
+      h3 {
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+
+.video {
+  border-radius: 32px;
+  overflow: hidden;
+
+  video {
+    width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h3 {
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 35.84px;
+    letter-spacing: -0.01em;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    text-align: center;
+  }
+}
+
+/* tablet */
+@media (min-width: (lg.$min-md + px)) {
+  .wrapper {
+    padding: 78px 64px;
+  }
+
+  .header {
+    margin-bottom: 71px;
+
+    h2 {
+      font-size: 48px;
+      font-weight: 550;
+      line-height: 53.76px;
+      letter-spacing: -0.01em;
+      text-align: center;
+    }
+  }
+
+  .video {
+    border-radius: 64px;
+  }
+
+  .cards {
+    gap: 68px;
+  }
+
+  .card {
+    gap: 32px;
+  }
+
+  .content {
+    h3 {
+      font-size: 36px;
+      font-weight: 550;
+      line-height: 40.32px;
+      letter-spacing: -0.01em;
+      text-align: left;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24.84px;
+      text-align: left;
+    }
+  }
+}
+
+/* desktop */
+@media (min-width: (lg.$min-xl + px)) {
+  .wrapper {
+    padding: 100px 127px;
+  }
+
+  .header {
+    margin-bottom: 105px;
+  }
+
+  .cards {
+    gap: 68px;
+  }
+
+  .card {
+    gap: 38px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    &:nth-child(2n) {
+      flex-direction: row;
+    }
+  }
+
+  .video {
+    max-width: 687px;
+    aspect-ratio: 16 / 9;
+    min-height: 200px;
+  }
+
+  .content {
+    max-width: 505px;
+
+    h3 {
+      padding: 0 !important;
+    }
+  }
+}

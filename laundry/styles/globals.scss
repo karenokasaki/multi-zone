@@ -1,0 +1,78 @@
+@use "variables";
+
+.wrapper {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+  }
+
+  .slick-track {
+    display: flex !important;
+  }
+}
+
+.wrapper.wrapper.wrapper {
+  background-color: white !important;
+  font-family: "LG EI", "Times New Roman", Times, serif, sans-serif !important;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "LG EI";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: local("☺"),
+    url("/laundry/fonts/LG EI_Text Regular.woff2") format("woff2"),
+    url("/laundry/fonts/LG EI_Text Regular.woff") format("woff"),
+    url("/laundry/fonts/LG EI_Text Regular.eot") format("eot");
+}
+@font-face {
+  font-family: "LG EI";
+  font-display: swap;
+  font-weight: 550;
+  font-style: normal;
+  src: local("☺"),
+    url("/laundry/fonts/LG EI_Headline Semibold.woff2") format("woff2"),
+    url("/laundry/fonts/LG EI_Headline Semibold.woff") format("woff"),
+    url("/laundry/fonts/LG EI_Headline Semibold.eot") format("eot");
+}
+
+@font-face {
+  font-family: "LG EI";
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  src: local("☺"),
+    url("/laundry/fonts/LG EI_Text SemiBold.woff2") format("woff2"),
+    url("/laundry/fonts/LG EI_Text SemiBold.woff") format("woff"),
+    url("/laundry/fonts/LG EI_Text SemiBold.eot") format("eot");
+}
+
+@font-face {
+  font-family: "LG EI";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: local("☺"), url("/laundry/fonts/LG EI_Text Bold.woff2") format("woff2"),
+    url("/laundry/fonts/LG EI_Text Bold.woff") format("woff"),
+    url("/laundry/fonts/LG EI_Text Bold.eot") format("eot");
+}
+
+@font-face {
+  font-family: "LG Smart Regular";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: local("☺"),
+    url("/lg5-common/webfonts/LG_Smart_Regular_Italic.woff2") format("woff2"),
+    url("/lg5-common/webfonts/LG_Smart_Regular_Italic.woff") format("woff");
+}

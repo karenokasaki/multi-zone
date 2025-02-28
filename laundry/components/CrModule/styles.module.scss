@@ -1,0 +1,186 @@
+@use "../../styles/LG/variables" as lg;
+@use "../../styles/SJ/variables" as sj;
+
+/* mobile first */
+.wrapper {
+  width: 100%;
+  padding: 55px 52px;
+  background-color: #f0ece4;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 550;
+  line-height: 40.32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 532px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 24.8px;
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.84px;
+    text-align: left;
+    color: #1b1a1e99;
+  }
+}
+
+.cta {
+  margin-top: 6px;
+
+  a::after {
+    background-color: #008541 !important;
+  }
+
+  a {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 19.2px !important;
+    text-align: center !important;
+    padding: 10.5px 16px !important;
+    width: fit-content !important;
+  }
+}
+
+.disclaimer,
+.disclaimer_desktop {
+  margin-top: 24px;
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: left;
+    color: #1b1a1e99;
+  }
+}
+
+.image_container {
+  position: relative;
+  width: 100%;
+}
+
+.cr_logo {
+  position: absolute;
+  bottom: 21px;
+  right: 46px;
+  width: 114px;
+}
+
+.cr_models {
+  position: absolute;
+  bottom: 5px;
+  right: 55px;
+  p {
+    color: #ffffff99;
+    font-size: 8.34px;
+    font-weight: 400;
+    line-height: 11.51px;
+    text-align: left;
+  }
+}
+
+.disclaimer_desktop {
+  display: none;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 90px 52px;
+  }
+
+  .container {
+    max-width: 80%;
+    gap: 44px;
+  }
+
+  .cr_logo {
+    width: 251px;
+    bottom: 31px;
+  }
+
+  .cr_models {
+    bottom: 9.8px;
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16.56px;
+    }
+  }
+}
+
+/* desktop $min-lg: 992; */
+@media (min-width: 1200px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: row;
+    margin: unset;
+    max-width: 1409px;
+    width: 100%;
+    align-items: center;
+    gap: 90px;
+  }
+
+  .image_container {
+    max-width: 637px;
+    width: 100%;
+  }
+
+  .main_image {
+    width: 100%;
+  }
+
+  .cr_logo {
+    bottom: 65px;
+    width: 40.2%;
+  }
+
+  .cr_models {
+    bottom: 35px;
+    p {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24.84px;
+    }
+  }
+
+  .disclaimer {
+    display: none;
+  }
+
+  .disclaimer_desktop {
+    display: block;
+    margin-top: 0;
+  }
+
+  .cta {
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+}

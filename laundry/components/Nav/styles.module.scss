@@ -1,0 +1,106 @@
+@use "../../styles/LG/variables" as lg;
+@use "../../styles/SJ/variables" as sj;
+
+.wrapper * {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  a,
+  a:hover,
+  a:visited {
+    color: white;
+  }
+}
+.wrapper {
+  background-color: #161616;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding-top: 60px;
+}
+
+.content {
+  height: 60px;
+  transition: height 300ms ease-out;
+  overflow: hidden;
+  background-color: #161616;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header {
+  width: 100%;
+  padding: 15px 24px;
+  &-logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-icon {
+    cursor: pointer;
+  }
+}
+
+.nav {
+  &-link {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    cursor: pointer;
+    padding-right: 50px;
+    display: grid;
+    place-content: center;
+    justify-content: flex-end;
+  }
+  &-link.highlight {
+    text-decoration: underline;
+  }
+  &-link:last-child {
+    margin-bottom: 16px;
+  }
+}
+
+/** tablet */
+@media screen and (min-width: (lg.$min-sm + px)) {
+}
+
+/** desktop */
+@media screen and (min-width: (lg.$min-xl + px)) {
+  .content {
+    transition: none;
+    height: 60px !important;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .header {
+    width: fit-content;
+    &-icon {
+      display: none;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+  .nav {
+    &-list {
+      display: flex;
+      align-items: center;
+    }
+    &-link {
+      height: 60px !important;
+      padding: 0 15px;
+    }
+    &-link:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

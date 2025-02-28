@@ -1,0 +1,13 @@
+{
+  "superscript": "LG LAUNDRY APPLIANCES",
+  "title": "Clothing care, reimagined",
+  "copy": "Let LG take the chore out of laundry day. Our line of high-performance washers, dryers, steam closets and pedestal washers do more than clean and refresh your clothes. With advanced technology, stylish design, and innovative features, our laundry solutions fit seamlessly into your day—and help make life good.",
+  "video": {
+    "src": "/laundry/assets/videos/hero.mp4",
+    "title": "Video showcasing LG's laundry products and features."
+  },
+  "logo": {
+    "src": "/laundry/assets/images/hero-logo.png",
+    "alt": ""
+  }
+}

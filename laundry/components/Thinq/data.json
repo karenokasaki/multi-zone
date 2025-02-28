@@ -1,0 +1,13 @@
+{
+  "header": "Works hard, works smart",
+  "copy1": "Available through the LG ThinQ app, ThinQ Care puts control and convenience right in your hands. With it you can remotely run your smart laundry appliances, download different wash and dry settings for specialized care, and get notified when cycles are done.",
+  "copy2": "ThinQ Care will also perform smart diagnostics and routine maintenance checks to help keep everything running smoothly. It’s like having your own personal laundry assistant. Now, if only it could fold and put away clothes.",
+  "assets": {
+    "d": "/laundry/assets/images/thinq-desktop.jpg",
+    "t": "/laundry/assets/images/thinq-tablet.jpg",
+    "m": "/laundry/assets/images/thinq-mobile.jpg",
+    "alt": "A woman stands in front of her top-load washer using the ThinQ app on her phone to control the washer."
+  },
+  "logo": "/laundry/assets/images/thinq-logo.png",
+  "logo_alt": "LG ThinQ logo"
+}

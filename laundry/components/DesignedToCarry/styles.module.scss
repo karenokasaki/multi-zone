@@ -1,0 +1,211 @@
+@use "../../styles/LG/variables" as lg;
+@use "../../styles/SJ/variables" as sj;
+@use "../../styles/SJ/mixin" as mixin;
+
+.wrapper * {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  @include mixin.copyMobile();
+  padding: 39px 0 56px 0;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 877px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 24px;
+
+  h2 {
+    margin-bottom: 20px;
+    padding: 0 5px;
+    color: #1a1a1a;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    text-align: center;
+    color: #1b1a1e99;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+
+  :global(.slick-list) {
+    padding: 0 !important;
+    margin-left: 12px;
+  }
+
+  :global(.slick-slide) {
+    //max-width: 268px !important;
+    margin: 0 12px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 549px;
+  height: 100%;
+
+  &-img {
+    border-radius: 24px;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 30px;
+
+    img {
+      border-radius: 24px;
+      width: 100%;
+    }
+  }
+  &-copy {
+    min-height: calc(175px + 24px);
+
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26.4px;
+      text-align: left;
+      margin-bottom: 16px !important;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.08px;
+      text-align: left;
+    }
+  }
+
+  &-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 2px;
+
+    :global(.cta) {
+      width: 100%;
+      height: 40px !important;
+
+      a {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        line-height: 19.2px !important;
+        text-align: center !important;
+        height: 40px !important;
+      }
+    }
+  }
+}
+
+.cta {
+  margin-top: auto;
+  a {
+    text-transform: capitalize !important;
+  }
+}
+
+/** tablet */
+@media screen and (min-width: (lg.$min-sm + px)) {
+  .wrapper {
+    @include mixin.copyTablet();
+    padding-top: 62px;
+    padding-bottom: 71px;
+    max-width: 680px;
+    margin: 0 auto !important;
+  }
+  .header {
+    margin-bottom: 64px !important;
+
+    p {
+      padding: 0 20px;
+    }
+  }
+
+  .cards {
+    :global(.slick-track) {
+      padding-left: 10px;
+    }
+    :global(.slick-slide) {
+      height: unset;
+    }
+
+    :global(.slick-slide > div) {
+      height: 100%;
+    }
+  }
+
+  .card {
+    //max-width: 280px !important;
+    &-copy {
+      h3 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 26.4px */
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+
+    &-cta {
+      flex-direction: row;
+    }
+  }
+}
+
+/** desktop */
+@media screen and (min-width: (lg.$min-xl + px)) {
+  .wrapper {
+    @include mixin.copyDesktop();
+    border-radius: 64px 64px 0px 0px;
+    padding: 100px 39px;
+    margin-top: -64px !important;
+    z-index: 15;
+    position: relative;
+    background-color: white;
+    max-width: unset;
+  }
+  .header {
+    margin-bottom: 43px !important;
+  }
+  .cards {
+    flex-wrap: nowrap;
+    max-width: 1410px;
+    margin: 0 auto;
+
+    :global(.regular) {
+      display: flex;
+      flex-wrap: nowrap;
+      max-width: 1410px;
+      margin: 0 auto;
+      gap: 30px;
+    }
+  }
+  .card {
+    flex: 1;
+    width: calc(25% - (90px / 4));
+    height: unset;
+
+    &-cta {
+      gap: 12px;
+    }
+
+    .cta {
+      width: unset;
+    }
+  }
+}

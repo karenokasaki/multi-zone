@@ -1,0 +1,68 @@
+@use "../../styles/LG/variables" as lg;
+@use "../../styles/SJ/variables" as sj;
+@use "../../styles/SJ/mixin" as mixin;
+
+.wrapper * {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  @include mixin.copyMobile();
+  background-color: #f0ece4;
+  padding: 64px 22px;
+}
+
+.content {
+  max-width: 1358px;
+  margin: 0 auto;
+}
+
+.copy {
+  margin-bottom: 32px;
+  h3 {
+    font-size: 36px;
+    line-height: 40.32px;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 19.32px;
+    color: #1b1a1e99;
+  }
+}
+
+/** tablet */
+@media screen and (min-width: (lg.$min-sm + px)) {
+  .wrapper {
+    @include mixin.copyTablet();
+    padding: 52px 64px 72px;
+  }
+  .copy {
+    p {
+      font-size: 18px;
+      line-height: 24.84px;
+    }
+  }
+}
+
+/** desktop */
+@media screen and (min-width: (lg.$min-xl + px)) {
+  .wrapper {
+    @include mixin.copyDesktop();
+    padding: 100px 64px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 94px;
+  }
+  .copy {
+    max-width: 471px;
+    h3 {
+      max-width: 60%;
+    }
+  }
+}
