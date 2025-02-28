@@ -12,6 +12,11 @@ export default function Home() {
          <div>
             <a href="/laundry">Laundry</a>
          </div>
+
+         <div>
+            <a href="/vacuum">Vacuum - External page</a>
+         </div>
+
          <div>
             <Link href="/about">About us</Link>
          </div>
