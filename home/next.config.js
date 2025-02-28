@@ -39,10 +39,6 @@ const nextConfig = {
             destination: `${VACUUM_URL}/:path+`,
          },
          {
-            source: "/_next/:path+",
-            destination: `${VACUUM_URL}/_next/:path+`,
-         },
-         {
             source: "/us/discover-vacuums/assets/:path*",
             destination: `${VACUUM_URL}/us/discover-vacuums/assets/:path*`,
          },
